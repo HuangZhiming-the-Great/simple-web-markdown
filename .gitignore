@@ -1,8 +1,10 @@
-node_modules
-dist
+/node_modules
+/dist
 
 fcc-simple-react-markdown-previewer
 
-!dist/index.html
+!/dist/index.html
+!.babelrc
+!.gitignore
 
 test.html
