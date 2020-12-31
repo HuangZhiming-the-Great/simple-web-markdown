@@ -1,0 +1,35 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* App Style */
+
+#App {
+  background: yellow;
+  display: grid;
+  grid-template-areas: "editor preview";
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Editor Style */
+
+#editor {
+  height: 80vh;
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 24px;
+  grid-area: editor;
+}
+
+/* Preview Style */
+
+#preview {
+  height: 80vh;
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem;
+  grid-area: preview;
+}
